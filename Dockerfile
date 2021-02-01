@@ -1,5 +1,6 @@
 # Set the base image
-FROM ubuntu:latest
+# Not the latest as versions >19.XX break couchDB dependencies
+FROM ubuntu:bionic
 
 # Dockerfile author 
 MAINTAINER Marcio Almeida <marcioalma@gmail.com> 
